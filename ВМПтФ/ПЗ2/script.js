@@ -4,7 +4,7 @@
 async function getBeasts() {
     try {
       const response = await fetch(
-        'https://raw.githubusercontent.com/erdoganishe/6Semestr/main/%D0%92%D0%9C%D0%9F%D1%82%D0%A4/%D0%9F%D0%972/beasts.json',
+        'https://raw.githubusercontent.com/erdoganishe/6Semestr/f1b4782bfe02e7e23872a0fbe7f79c1ddddf5c23/%D0%92%D0%9C%D0%9F%D1%82%D0%A4/%D0%9F%D0%972/beasts.json',
         {
           method: 'GET',
         },

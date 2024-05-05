@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Lion",
+      "type": "Mammal",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg"
+    },
+    {
+      "name": "Owl",
+      "type": "Bird",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Tawny_owl_in_flight.jpg/800px-Tawny_owl_in_flight.jpg"
+    },
+    {
+      "name": "Bear",
+      "type": "Mammal",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ursus_arctos_-_Norway.jpg"
+    },
+    {
+      "name": "Whale",
+      "type": "Mammal",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Blue_Whale_%28Balaenoptera_musculus%29_%2830703448987%29.jpg/800px-Blue_Whale_%28Balaenoptera_musculus%29_%2830703448987%29.jpg"
+    },
+    {
+      "name": "Crocodile",
+      "type": "Reptile",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Nile_crocodile_head.jpg"
+    },
+    {
+      "name": "Tiger",
+      "type": "Mammal",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sumatran_Tiger_Tragically_Poached_-_28_May_2021_-_003_%28cropped%29.jpg/800px-Sumatran_Tiger_Tragically_Poached_-_28_May_2021_-_003_%28cropped%29.jpg"
+    },
+    {
+      "name": "Deer",
+      "type": "Mammal",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Red_deer_stag_%28Cervus_elaphus%29_%28cropped%29.jpg/800px-Red_deer_stag_%28Cervus_elaphus%29_%28cropped%29.jpg"
+    },
+    {
+      "name": "Cow",
+      "type": "Mammal",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg"
+    },
+    {
+      "name": "Crow",
+      "type": "Bird",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Corvus_corax_corax_%28Linnaeus%29%2C_Ve%C4%8Desk%C3%A9_muzeum_v_%C5%BDlebech.jpg"
+    },
+    {
+      "name": "Elephant",
+      "type": "Mammal",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/African_Bush_Elephant.jpg/800px-African_Bush_Elephant.jpg"
+    }
+  ]
+  

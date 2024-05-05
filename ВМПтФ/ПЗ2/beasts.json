@@ -1,10 +1,5 @@
 [
     {
-      "name": "Lion",
-      "type": "Mammal",
-      "photo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaper-mania.com%2Fwp-content%2Fuploads%2F2018%2F09%2FHigh_resolution_wallpaper_background_ID_77700016688.jpg&f=1&nofb=1&ipt=32db6e2b0c1b94256167c103c83519c807d5b088a538c8c5e7909f6316f7c47a&ipo=images"
-    },
-    {
       "name": "Owl",
       "type": "Bird",
       "photo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.1tECzP28tSKO4m7bPnE4qwAAAA%26pid%3DApi%26h%3D160&f=1&ipt=c4a674be54f3507e83225d6a9798b3564ff692302330eba8c1ec52a30c45337e&ipo=images"

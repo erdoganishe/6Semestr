@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>List of Students</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Group</th>
+        <th>Subject 1 Marks</th>
+        <th>Subject 2 Marks</th>
+        <th>Subject 3 Marks</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for student in students %}
+        <tr>
+          <td>{{ student.name }}</td>
+          <td>{{ student.group }}</td>
+          <td>{{ student.subject1_marks }}</td>
+          <td>{{ student.subject2_marks }}</td>
+          <td>{{ student.subject3_marks }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

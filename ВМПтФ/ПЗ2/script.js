@@ -4,7 +4,7 @@
 async function getBeasts() {
     try {
       const response = await fetch(
-        'https://raw.githubbeastcontent.com/erdoganishe/6Semestr/main/%D0%92%D0%9C%D0%9F%D1%82%D0%A4/%D0%9F%D0%972/beasts.json',
+        'https://raw.githubusercontent.com/erdoganishe/6Semestr/main/%D0%92%D0%9C%D0%9F%D1%82%D0%A4/%D0%9F%D0%972/beasts.json',
         {
           method: 'GET',
         },
@@ -15,7 +15,7 @@ async function getBeasts() {
       }
   
       const data = await response.json();
-  
+      console.log(data);
       return data;
     } catch (error) {
       console.log(error);
@@ -31,7 +31,7 @@ async function getBeasts() {
       const li = document.createElement('li');
       li.innerHTML = beast.name + "   " + beast.type;
       const image = document.createElement('img');
-      image.src = beast.image;
+      image.src = beast.photo;
       image.style.width = '100px';
       image.style.height = '100px';
       li.appendChild(image);

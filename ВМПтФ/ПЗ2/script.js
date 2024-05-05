@@ -1,10 +1,10 @@
-const list = document.getElementById("list")
+
 
 // 1) Fetch data from remote API
-async function getUsers() {
+async function getBeasts() {
     try {
       const response = await fetch(
-        'https://jsonplaceholder.typicode.com/users',
+        'https://raw.githubbeastcontent.com/erdoganishe/6Semestr/main/%D0%92%D0%9C%D0%9F%D1%82%D0%A4/%D0%9F%D0%972/beasts.json',
         {
           method: 'GET',
         },
@@ -22,39 +22,25 @@ async function getUsers() {
     }
   }
 
-  getUsers().then(data => {
+  getBeasts().then(data => {
     console.log(data);
   
-    const ol = document.createElement('ol');
+    const list = document.getElementById("list")
   
-    data.forEach(user => {
+    data.forEach(beast => {
       const li = document.createElement('li');
-      li.innerHTML = user.name;
-  
+      li.innerHTML = beast.name + "   " + beast.type;
+      const image = document.createElement('img');
+      image.src = beast.image;
+      image.style.width = '100px';
+      image.style.height = '100px';
+      li.appendChild(image);
       li.style.fontSize = '22px';
+      
+     
   
-      const ul = document.createElement('ul');
-  
-      const company = document.createElement('li');
-      company.innerHTML = `Company: ${user.company.name}`;
-  
-      const city = document.createElement('li');
-      city.innerHTML = `City: ${user.address.city}`;
-  
-      const email = document.createElement('li');
-      email.innerHTML = `Email: ${user.email}`;
-  
-      const phone = document.createElement('li');
-      phone.innerHTML = `Phone: ${user.phone}`;
-  
-      ul.append(...[company, city, email, phone]);
-  
-      li.appendChild(ul);
-  
-      ol.appendChild(li);
+      list.appendChild(li);
     });
-  
-    const container = document.getElementById('container');
-    container.appendChild(ol);
+
   });
-  
+
